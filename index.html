@@ -1,0 +1,28 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="/charter.css" rel="stylesheet">
+  </head>
+  <body>
+    <div style="max-width: 60vw;margin:auto;">
+      <h2>Test chart</h2>
+      <p>The chart belows shows the data:</p>
+      <div style="position: relative; height:400px; max-width: 800px; margin: auto;"> 
+        <canvas id="chart"></canvas>
+      </div>
+    </div>
+
+<script src="/dist/charter.umd.js"></script>
+
+<script type="text/javascript">
+    console.log('test');
+    var ctx = document.getElementById('chart');
+    makeChart(ctx, 'blog-201812-futures-101', 'mxp', 1, true);
+
+</script>
+
+  </body>
+ </html>

@@ -1,0 +1,17 @@
+.charter-legend-container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.charter-legend {
+    float: left;
+    line-height: 2.5em;
+}
+.charter-legend em {
+    font-style: normal;
+    font-weight: 700;
+}
+.charter-logscale {
+    float: right;
+    line-height: 2.5em;
+}
